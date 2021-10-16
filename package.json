@@ -1,0 +1,20 @@
+{
+  "name": "filegetter",
+  "version": "1.0.0",
+  "description": "Simple CLI command to get log file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^8.2.0",
+    "inquirer": "^8.2.0",
+    "yargs": "^17.2.1"
+  },
+  "bin": {
+    "filegetter": "./bin/index.js"
+  }
+}
